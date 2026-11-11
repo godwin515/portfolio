@@ -1,0 +1,10 @@
+{
+  // Cloudflare settings for the portfolio site.
+  // "name" must match the Worker name in the Cloudflare dashboard.
+  "name": "godwin-udosen",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    // The website files live in the "public" folder
+    "directory": "./public"
+  }
+}
