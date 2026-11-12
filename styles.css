@@ -543,3 +543,99 @@ h1, .page-header h1, .about-text h1, .contact h1, .hero h1 {
   line-height: 1.25;
   letter-spacing: 0;
 }
+
+/* =========================================================
+   DARK THEME: black background
+   ========================================================= */
+body { background: #000000; color: #E5E5E5; }
+h1, h2, h3 { color: #FFFFFF; }
+a { color: #93B4FF; }
+a:hover { color: #C7D7FF; }
+
+/* Header */
+.site-header { background: rgba(0,0,0,.9); border-bottom-color: #262626; }
+.nav-links a:not(.btn) { color: #FFFFFF; }
+.nav-links a:not(.btn):hover,
+.nav-links a[aria-current="page"]:not(.btn) { background: #1A1A1A; color: #FFFFFF; }
+
+/* Bands and sections */
+.hero-band, .page-header-band { background: #0A0A0A; border-bottom-color: #262626; }
+.section.white, .white { background: #0A0A0A; }
+.bordered { border-top-color: #262626; }
+.amber-band { background: #111111; border-top: 1px solid #262626; }
+.amber-band h2, .cta-row h2 { color: #FFFFFF; }
+
+/* Text colours */
+.hero h1, .page-header h1, .about-text h1 { color: #FFFFFF; }
+.lead, .hero .lead, .about-text p:not(.section-label), .project-body > p,
+.card p:not(.project-kind), .intro-desc { color: #D4D4D4; }
+.eyebrow, .hero .eyebrow, .mini-label { color: #A3A3A3; }
+.project-kind, .card p.project-kind { color: #93B4FF; }
+.section-label, .page-header-band .section-label { background: #1A2A55; color: #DCE6FB; }
+
+/* Cards */
+.card, .cards .card, .project, .skill-card, .contact-card {
+  background: #111111; border-color: #262626; color: #E5E5E5;
+}
+.card:hover { border-color: #3B5BDB; color: #E5E5E5; }
+.card h3, .project h3, .project-title, .skill-card h3 { color: #FFFFFF; }
+.card-more { color: #93B4FF; }
+.tags li { background: #1A2A55; color: #DCE6FB; }
+.project-body > ul:not(.tags) li { color: #D4D4D4; }
+.icon-amber, .icon-green, .icon-navy { background: #1A2A55; color: #DCE6FB; }
+
+/* Screenshots / placeholders */
+.media-green, .media-navy { background: linear-gradient(160deg, #161616, #0D0D0D); }
+.project-media::after { background: rgba(59,91,219,.25); }
+.phone { border-color: #2E2E2E; background: #2E2E2E; }
+.card-media img { border-color: #2E2E2E; }
+.placeholder { background: #1A1A1A; color: #A3A3A3; }
+
+/* Buttons */
+.btn-outline { border-color: #FFFFFF; color: #FFFFFF; }
+.btn-outline:hover { background: #FFFFFF; color: #000000; }
+.btn-accent:hover, .btn-dark:hover, .btn-whatsapp:hover { background: #2B4FB8; color: #FFFFFF; }
+.link { background: #1E3A8A; color: #FFFFFF; }
+.link:hover { background: #2B4FB8; color: #FFFFFF; }
+
+/* Contact card */
+.contact-card .email-line { color: #FFFFFF; }
+.contact-card .copy-btn { border-color: #93B4FF; color: #93B4FF; }
+.contact-card .copy-btn:hover { background: #93B4FF; color: #000000; }
+.contact-card .copy-status { color: #93B4FF; }
+
+/* Mobile menu */
+.menu-toggle { background: #111111; border-color: #333333; }
+.menu-toggle span { background: #FFFFFF; }
+.menu-toggle:hover { background: #1A1A1A; }
+.mobile-menu { background: #0A0A0A; }
+.mobile-menu-top, .mobile-menu-bottom { border-color: #262626; }
+.menu-close { background: #1A1A1A; color: #FFFFFF; }
+.mobile-links a:not(.btn) { color: #FFFFFF; }
+.mobile-links a:not(.btn):hover, .mobile-links a[aria-current="page"]:not(.btn) { background: #1A1A1A; color: #FFFFFF; }
+.mobile-menu-bottom p { color: #FFFFFF; }
+.mobile-menu .social-links a { background: #1A1A1A; color: #FFFFFF; }
+.menu-overlay { background: rgba(0,0,0,.6); }
+
+/* Keep the footer at the bottom on short pages */
+body { min-height: 100vh; display: flex; flex-direction: column; }
+body > main { flex: 1 0 auto; }
+
+/* ===== Blue header ===== */
+.site-header { background: #1E3A8A; border-bottom: 0; backdrop-filter: none; }
+.nav-links a:not(.btn) { color: #FFFFFF; }
+.nav-links a:not(.btn):hover,
+.nav-links a[aria-current="page"]:not(.btn) { background: rgba(255,255,255,.16); color: #FFFFFF; }
+.menu-toggle { background: transparent; border-color: rgba(255,255,255,.5); }
+.menu-toggle:hover { background: rgba(255,255,255,.12); }
+.menu-toggle span { background: #FFFFFF; }
+:focus-visible { outline-color: #93B4FF; }
+
+/* ===== Black footer ===== */
+.site-footer { background: #000000; border-top: 1px solid #262626; }
+.footer-top { border-bottom-color: #262626; }
+.footer-role, .site-footer .footer-bottom { color: #A3A3A3; }
+.site-footer .footer-links a:hover { color: #93B4FF; }
+.footer-contact a:hover { color: #93B4FF; }
+.site-footer .social-links a { background: #1A1A1A; color: #FFFFFF; }
+.site-footer .social-links a:hover { background: #1E3A8A; color: #FFFFFF; }
